@@ -5,6 +5,24 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
+# Gradle Wrapper
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
+
+# Generated files
+/generated/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
 ### STS ###
 .apt_generated
 .classpath
@@ -18,11 +36,15 @@ bin/
 !**/src/test/**/bin/
 
 ### IntelliJ IDEA ###
-.idea
+
+.idea/
+*.iml
+*.iws
+out/
+
 *.iws
 *.iml
 *.ipr
-out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
