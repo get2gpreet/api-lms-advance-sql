@@ -1,7 +1,6 @@
 package com.lms.api.controller;
 
-import com.lms.api.UserService;
-import com.lms.api.dao.UserRepository;
+import com.lms.api.service.UserService;
 import com.lms.api.entity.User;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -9,7 +8,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/users")
